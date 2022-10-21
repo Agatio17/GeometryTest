@@ -8,7 +8,7 @@ class Rectangle : public Geometry
 public:
 	Rectangle(real32 width, real32 height);
 
-	float calculateArea() override;
+	real32 calculateArea() override;
 	void print() override;
 
 private:

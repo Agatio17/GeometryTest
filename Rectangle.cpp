@@ -16,5 +16,5 @@ real32 Rectangle::calculateArea()
 
 void Rectangle::print()
 {
-	std::cout << "(Rectangle) " << width << " " << height << std::endl;
+	std::cout << "(Rectangle) " << width << " " << height << " " << calculateArea() << std::endl;
 }
