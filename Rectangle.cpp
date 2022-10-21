@@ -2,13 +2,13 @@
 
 #include <iostream>
 
-Rectangle::Rectangle(real32 width, real32 height)
+Rectangle::Rectangle(double width, double height)
 	: width(width), height(height)
 {
 
 }
 
-real32 Rectangle::calculateArea()
+double Rectangle::calculateArea()
 {
 	real32 area = width * height;
 	return area;

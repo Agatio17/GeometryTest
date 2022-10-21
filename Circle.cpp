@@ -4,15 +4,15 @@
 #include <math.h>
 #include <iostream>
 
-Circle::Circle(real32 radius)
+Circle::Circle(double radius)
 	: radius(radius)
 {
 
 }
 
-real32 Circle::calculateArea()
+double Circle::calculateArea()
 {
-	real32 area = M_PI * radius * radius;
+	double area = M_PI * radius * radius;
 	return area;
 }
 

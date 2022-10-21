@@ -5,7 +5,7 @@
 class Geometry
 {
 public:
-	virtual real32 calculateArea() = 0;
+	virtual double calculateArea() = 0;
 	virtual void print();
 };
 
