@@ -1,14 +1,14 @@
 #include <iostream>
 
 #include "Rectangle.h"
+#include "Circle.h"
 
 int main()
 {
 	std::cout << "Test" << std::endl;
 	
-	Rectangle rect(100, 200);
-	rect.print();
-	std::cout << rect.calculateArea();
+	Circle circle(25.0f);
+	circle.print();
 
 	return 0;
 }
