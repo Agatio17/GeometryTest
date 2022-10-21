@@ -6,11 +6,11 @@
 class Circle : public Geometry
 {
 public:
-	Circle(real32 radius);
+	Circle(double radius);
 
-	real32 calculateArea() override;
+	double calculateArea() override;
 	void print() override;
 
 private:
-	real32 radius;
+	double radius;
 };

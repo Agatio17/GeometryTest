@@ -6,13 +6,13 @@
 class Rectangle : public Geometry
 {
 public:
-	Rectangle(real32 width, real32 height);
+	Rectangle(double width, double height);
 
-	real32 calculateArea() override;
+	double calculateArea() override;
 	void print() override;
 
 private:
-	real32 width;
-	real32 height;
+	double width;
+	double height;
 };
 
