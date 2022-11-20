@@ -13,7 +13,7 @@ int main()
 	std::vector<Geometry*> geometries;
 	int nRects = 0;
 	int nCircles = 0;
-  int nSquares = 0;
+	int nSquares = 0;
 	for (int i = 0; i < 100; i++) {
 		int r = (i % 3);
 		if (r == 0) {
@@ -24,7 +24,7 @@ int main()
 			nCircles++;
 		} else if(r == 2) {
 			geometries.push_back(new Square((real32)i));
-      nSquares++;
+			nSquares++;
 		}
 	}
 
